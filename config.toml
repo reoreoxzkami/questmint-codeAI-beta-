@@ -1,0 +1,9 @@
+project_id = "xkawlzxnnqwxqiqqdyco"
+
+[functions.chat]
+verify_jwt = false
+
+# JWT verification handled in-function so we can return user-friendly auth errors.
+
+[functions.award-game-credits]
+verify_jwt = false
